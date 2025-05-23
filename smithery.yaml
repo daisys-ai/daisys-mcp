@@ -1,0 +1,29 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'daisys-mcp', args: [], env: { DAISYS_EMAIL: config.email, DAISYS_PASSWORD: config.password, ...(config.baseStoragePath ? { DAISYS_BASE_STORAGE_PATH: config.baseStoragePath } : {}) } })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - email
+      - password
+    properties:
+      email:
+        type: string
+        description: Daisys email
+      password:
+        type: string
+        description: Daisys password
+      baseStoragePath:
+        type: string
+        default: ""
+        description: Path to store audio files
+  exampleConfig:
+    email: user@example.com
+    password: s3cr3tPass
+    baseStoragePath: /data/audio

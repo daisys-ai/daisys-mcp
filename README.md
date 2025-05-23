@@ -1,4 +1,5 @@
 # Daisys MCP server
+[![smithery badge](https://smithery.ai/badge/@daisys-ai/daisys-mcp)](https://smithery.ai/server/@daisys-ai/daisys-mcp)
 
 Daisys-mcp is a beta version and doesn't have a stable release yet. But you can try it out by doing the following:
 
