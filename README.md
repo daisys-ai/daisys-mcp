@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/daisys-ai-daisys-mcp-badge.png)](https://mseep.ai/app/daisys-ai-daisys-mcp)
+
 # Daisys MCP server
 [![smithery badge](https://smithery.ai/badge/@daisys-ai/daisys-mcp)](https://smithery.ai/server/@daisys-ai/daisys-mcp)
 
