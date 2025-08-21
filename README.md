@@ -1,6 +1,7 @@
 [![MseeP.ai Security Assessment Badge](https://mseep.net/pr/daisys-ai-daisys-mcp-badge.png)](https://mseep.ai/app/daisys-ai-daisys-mcp)
 
 # Daisys MCP server
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/daisys-ai/daisys-mcp)](https://archestra.ai/mcp-catalog/daisys-ai__daisys-mcp)
 [![smithery badge](https://smithery.ai/badge/@daisys-ai/daisys-mcp)](https://smithery.ai/server/@daisys-ai/daisys-mcp)
 
 Daisys-mcp is a beta version and doesn't have a stable release yet. But you can try it out by doing the following:
